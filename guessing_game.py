@@ -3,7 +3,7 @@ import random
 guessedNum = random.randint(0, 30)
 count = 0
 while count < 5:
-    guess = int(input("guess a number: "))
+    guess = int(input("guess a number between (0-30): "))
     if guess < guessedNum:
         print("too low")
     elif guess > guessedNum:
