@@ -24,3 +24,4 @@ print(pms_discount)
 
 print("The total price of ", MyPurchase.petrol_type , " you bought is: ", MyPurchase.purchase_amount)
 
+print(MyPurchase.net_purchase)

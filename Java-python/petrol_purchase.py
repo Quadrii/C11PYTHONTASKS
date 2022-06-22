@@ -50,3 +50,8 @@ class Petrol:
     def purchase_amount(self):
         pms_cost = self.__petrol_price * self.__quantity
         return pms_cost
+
+    @property
+    def net_purchase(self):
+        netPurch = self.__purchase_amount * self.__discount // 100
+        return netPurch
