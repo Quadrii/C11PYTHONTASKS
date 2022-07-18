@@ -14,6 +14,6 @@ while count < 5:
     count += 1
 
 else:
-    print("you tired, but you can never make it!")
+    print("you tried, but you can never make it!")
 
 

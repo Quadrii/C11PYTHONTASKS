@@ -1,4 +1,3 @@
-
 letters = "Hello world! we doing python now"
 for letter in letters:
     print(letter)
