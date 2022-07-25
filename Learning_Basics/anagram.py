@@ -11,3 +11,4 @@ if checking == 1:
     print("Its an anagram")
 else:
     print("Its not an anagram")
+

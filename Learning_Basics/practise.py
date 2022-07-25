@@ -52,3 +52,4 @@ assert 4 == 3, "the two numbers must be equal"
 #         lst_rng.remove(ls)
 #     elif ls % 2 != 0:
 #         print(ls)
+

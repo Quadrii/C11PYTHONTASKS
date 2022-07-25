@@ -1,6 +1,6 @@
 from petrol_purchase import Petrol
 #Constructor
-MyPurchase = Petrol(0, "Ogba", "petrol", 0, 0)
+MyPurchase = Petrol(0, "Ogba", "petrol", 0)
 
 MyPurchase.quantity = int(input("How many liters of petrol did you buy: "))
 qty = MyPurchase.quantity
@@ -18,10 +18,8 @@ MyPurchase.petrol_price = int(input("How much does a liter of " + MyPurchase.pet
 pms_price = MyPurchase.petrol_price
 print(pms_price)
 
-MyPurchase.discount = int(input("Enter discount: "))
-pms_discount = MyPurchase.discount
-print(pms_discount)
+discount = int(input("Enter discount: "))
+print(MyPurchase.net_purchase(discount))
 
-print("The total price of ", MyPurchase.petrol_type , " you bought is: ", MyPurchase.purchase_amount)
+print("The total price of ", MyPurchase.petrol_type , " you bought is: ", MyPurchase.purchase_amount())
 
-print(MyPurchase.net_purchase)
